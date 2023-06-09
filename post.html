@@ -16,12 +16,14 @@
 
     <title>Gabriel Paiva Post</title>
   </head>
+
   <body>
     <nav>
       <div class="avatar">
         <p>GP</p>
       </div>
       <h1>Gabriel Paiva</h1>
+      <a href="./new.html">Novo Artigo</a>
     </nav>
     <main>
       <h1>Título do post</h1>
@@ -67,6 +69,41 @@
       </article>
       <div><a href="./index.html"><- Voltar à tela inicial</a></div>
     </main>
+    <section class="comments">
+      <h1>Comentários</h1>
+      <div class="comment-card">
+        <div class="comment-picture">
+          <img src="./static/anonymous.jpg" alt="Anônimo" />
+        </div>
+        <div class="comment-content">
+          <h3>Anônimo</h3>
+          <p>Muito bom esse post!</p>
+        </div>
+      </div>
+
+      <div class="comment-card">
+        <div class="comment-picture">
+          <img src="./static/anonymous.jpg" alt="Anônimo" />
+        </div>
+        <div class="comment-content">
+          <h3>João da Silva</h3>
+          <p>
+            Gostei muito dos tópicos abordados, mas faltou mais profundidade no
+            assunto.
+          </p>
+        </div>
+      </div>
+
+      <label for="add-comment">Deixe um comentário:</label>
+
+      <textarea
+        id="add-comment"
+        name="add-comment"
+        rows="4"
+        cols="25"
+      ></textarea>
+      <button>Comentar</button>
+    </section>
     <footer>
       <p>@Gabriel Paiva Aguiar</p>
       <p>Matéria de Desenvolvimento de Frontend</p>

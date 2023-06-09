@@ -39,20 +39,3 @@ main {
   flex-direction: column;
   gap: 8px;
 }
-
-.card .card-content button {
-  width: 180px;
-  height: 40px;
-  border-radius: 8px;
-  border: none;
-  cursor: pointer;
-  background-color: #3A2DB1;
-  font-size: 16px;
-  color: white;
-  font-weight: 500;
-  margin-top: 8px;
-}
-
-.card .card-content button:hover {
-  background-color: #5640FB;
-}

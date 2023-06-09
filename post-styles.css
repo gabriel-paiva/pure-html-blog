@@ -18,3 +18,44 @@ main article {
 main article p, main div {
   margin-top: 20px;
 }
+
+.comments {
+  width: 100%;
+  min-height: 200px;
+  background-color: #fafafa;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.comment-card {
+  display: flex;
+}
+
+.comment-card .comment-picture {
+  height: 80px;
+}
+
+.comment-card .comment-picture img {
+  height: 100%;
+  width: auto;
+  border-radius: 100px;
+}
+
+.comment-card .comment-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+  gap: 8px;
+  justify-content: center;
+}
+
+.comments label {
+  margin-top: 40px;
+}
+
+.comments textarea {
+  max-width: 600px;
+}

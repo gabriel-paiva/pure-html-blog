@@ -31,6 +31,7 @@ nav .avatar {
   width: 40px;
   height: 40px;
   margin-right: 4px;
+  margin-left: 20px;
 }
 
 nav .avatar p {
@@ -42,6 +43,12 @@ nav .avatar p {
 nav h1 {
   font-size: 22px;
   font-weight: 600;
+  
+}
+
+nav a{
+  margin-left: auto;
+  margin-right: 20px;
 }
 
 main {
@@ -72,6 +79,23 @@ footer {
     height: 100px;
     text-align: center;
   }
+}
+
+button {
+  width: 180px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: #3A2DB1;
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  margin-top: 8px;
+}
+
+button:hover {
+  background-color: #5640FB;
 }
 
 @media(max-width: 450px) {
